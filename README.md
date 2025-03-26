@@ -17,6 +17,47 @@ newspaper agencies.
 
 All paragraphs are labeled with emotion and moral labels. Of these, 50,975 paragraphs are also labeled with events, whereas the remaining ones do not contain events. For additional information, please refer to our [paper](https://arxiv.org/abs/2409.09001).
 
+
+The dataset contains the following columns:
+
+
+- `content_id`: Identification code of the news item within SwissDox.
+- `P`:Paragraph identification code. It takes the form $P_i$, where $i$ is the $i$-th paragraph within the news item.
+- `subject`:  Main subject of the news item (e.g., Amanda Knox).
+- `event`: List of events in JSON format
+- `care`, `harm`, `fairness`, `cheating`, `loyalty`, `betrayal`, `authority`, `subversion`, `purity`, `degradation`: Real-valued scores (within 0 and 1) associated with moral values  
+- `anticipation`, `trust`, `disgust`, `joy`, `optimism`, `surprise`, `love`, `anger`, `sadness`, `pessimism`, `fear`: Real-valued scores (within 0 and 1) associated with emotion values
+
+
+Below, is an example of a single row of the dataset:
+
+**text**:  
+```
+"Mystery without an answer: Where is Meredith's murderer? 
+Amanda Knox was acquitted of murdering Meredith Kercher. 
+But if it wasn't her, then who killed the British woman with 43 stab wounds?"
+```
+
+**event**:
+
+```
+[
+  {"mention": "murder", "entities": {"Amanda Knox": "murderer", "Meredith Kercher": "victim"}},
+  {"mention": "kill", "entities": {"Amanda Knox": "murderer", "Meredith Kercher": "victim"}}
+]
+```
+
+**Moral columns**:
+| care | harm | fairness | cheating | loyalty | betrayal | authority | subversion | purity | degradation |
+|-------------|-------------|-----------------|-----------------|----------------|-----------------|------------------|-------------------|---------------|--------------------|
+| 0.0         | 0.985  | 0.0             | 0.901      | 0.0            | 0.910        | 0.0              | 0.0               | 0.0           | 0.221        |
+
+**Emotion columns**:
+| anticipation | trust | disgust | joy  | optimism | surprise | love | anger | sadness | pessimism | fear |
+|--------------|-------|---------|------|----------|----------|------|-------|---------|-----------|------|
+| 0.0          | 0.0   | 0.521   | 0.0  | 0.0      | 0.0      | 0.0  | 0.5   | 0.0     | 0.0       | 0.0  |
+
+
 # Usage
 
 For this work, we used media data made available via Swissdox@LiRI by the Linguistic Research Infrastructure of the University of Zurich (see https://www.liri.uzh.ch/en/services/swissdox.html for more information).
