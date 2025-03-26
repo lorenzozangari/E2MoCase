@@ -22,9 +22,9 @@ The dataset contains the following columns:
 
 
 - `content_id`: Identification code of the news item within SwissDox.
-- `P`:Paragraph identification code. It takes the form $P_i$, where $i$ is the $i$-th paragraph within the news item.
-- `subject`:  Main subject of the news item (e.g., Amanda Knox).
-- `event`: List of events in JSON format
+- `P` : Paragraph identification code. It takes the form $P_i$, where $i$ is the $i$-th paragraph within the news item.
+- `subject` :  Main subject of the news item (e.g., Amanda Knox case).
+- `event` : List of events in JSON format
 - `care`, `harm`, `fairness`, `cheating`, `loyalty`, `betrayal`, `authority`, `subversion`, `purity`, `degradation`: Real-valued scores (within 0 and 1) associated with moral values  
 - `anticipation`, `trust`, `disgust`, `joy`, `optimism`, `surprise`, `love`, `anger`, `sadness`, `pessimism`, `fear`: Real-valued scores (within 0 and 1) associated with emotion values
 
