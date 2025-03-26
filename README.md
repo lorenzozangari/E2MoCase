@@ -28,6 +28,7 @@ The dataset contains the following columns:
 - `care`, `harm`, `fairness`, `cheating`, `loyalty`, `betrayal`, `authority`, `subversion`, `purity`, `degradation`: Real-valued scores (within 0 and 1) associated with moral values  
 - `anticipation`, `trust`, `disgust`, `joy`, `optimism`, `surprise`, `love`, `anger`, `sadness`, `pessimism`, `fear`: Real-valued scores (within 0 and 1) associated with emotion values
 
+After obtaining a valid SwissDox API key and running the instructions described in the [reconstruct.ipynb](reconstruct.ipynb) notebook (see the **Usage** section below), you will also obtain the **text** column containing the original textual content retrieved from SwissDox.
 
 Below, is an example of a single row of the dataset:
 
