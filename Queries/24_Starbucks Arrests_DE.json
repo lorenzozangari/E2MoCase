@@ -1,0 +1,3 @@
+{
+  "yaml_query": "query:\n  dates:\n    - from: 2018-01-01\n      to: 2024-03-18\n  content:\n    AND:\n      - Starbucks\n      - OR:\n          - festn*hmen\n          - Festn*hmen\nresult:\n  format: TSV\n  maxResults: 10000000\n  columns:\n    - id\n    - pubtime\n    - medium_code\n    - medium_name\n    - rubric\n    - regional\n    - doctype\n    - doctype_description\n    - language\n    - char_count\n    - dateline\n    - head\n    - subhead\n    - content_id\n    - content\nversion: 1.2\n"
+}

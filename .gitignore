@@ -1,0 +1,34 @@
+QueriesEN
+QueriesDE
+QueriesFR
+QueriesIT
+preprocess.ipynb
+e2mocase_full.csv
+
+# Cartelle generate dai file Python compilati
+__pycache__/
+*.py[cod]
+
+# Checkpoints di Jupyter
+*.ipynb_checkpoints
+
+# Ambiente virtuale e/o pacchetti
+venv/
+.venv/
+env/
+.env/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+*.whl
+
+# Cache e file di log
+*.log
+*.cache
+*.mypy_cache/
+.pytest_cache/
+.nox/
+
+# Altri file di sistema (facoltativi, a seconda delle preferenze/piattaforme)
+.DS_Store
+Thumbs.db
