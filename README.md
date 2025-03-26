@@ -11,11 +11,11 @@ In this repository, we provide the [E2MoCase dataset](https://arxiv.org/abs/2409
 
 # Data Description
 
-E2MoCase contains 97,251 paragraphs extracted from a total of 19,250 news articles. These news articles were obtained from 100 candidate real-world cases related to legal matters that had significant media impact due to evidence of cultural biases, such as religious, political, gender, racial, and media biases. For each case, we manually verified its accuracy
+E2MoCase contains 97,251 paragraphs extracted from a total of 19,250 news articles. These news articles were obtained from about 100 candidate real-world cases related to legal matters that had significant media impact due to evidence of cultural biases, such as religious, political, gender, racial, and media biases. For each case, we manually verified its accuracy
 in terms of reported news, we ensured it had significant media impact and it was covered by reputable
 newspaper agencies.
 
-All paragraphs are labeled with emotion and moral labels. Of these, 50,975 paragraphs are also labeled with events, whereas the remaining ones do not contain events. For additional information, please refer to our [paper](https://arxiv.org/abs/2409.09001).
+All paragraphs are labeled with emotions and moralities. Of these, 50,975 paragraphs are also labeled with events, whereas the remaining ones do not contain events. For additional information, please refer to our [paper](https://arxiv.org/abs/2409.09001).
 
 
 The dataset contains the following columns:
