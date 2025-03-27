@@ -6,7 +6,7 @@ In this work we introduce E2MoCase, a novel dataset designed to facilitate the i
 
 In this repository, we provide the [E2MoCase dataset](https://arxiv.org/abs/2409.09001) and we describe the process to obtain the raw data from the [SwissDox](https://www.liri.uzh.ch/en/services/swissdox.html) platform. The paper is available [here](https://arxiv.org/abs/2409.09001).
 
-**We are continually working to further enhance the E2moCase dataset. Stay tuned for more updates.**
+**We are continuously refining and expanding the E2moCase dataset. Stay tuned for upcoming updates!**
 
 
 # Data Description
@@ -15,7 +15,20 @@ E2MoCase contains 97,251 paragraphs extracted from a total of 19,250 news articl
 in terms of reported news, we ensured it had significant media impact and it was covered by reputable
 newspaper agencies.
 
-All paragraphs are labeled with emotions and moralities. Of these, 50,975 paragraphs are also labeled with events, whereas the remaining ones do not contain events. For additional information, please refer to our [paper](https://arxiv.org/abs/2409.09001).
+All paragraphs are labeled with emotions and moralities. Of these, 50,975 paragraphs are also labeled with events, whereas the remaining ones do not contain events. For additional information, please refer to our [paper](https://arxiv.org/abs/2409.09001). The statistics of E2MoCase and its variants are shown as follows.
+
+
+|                      | E2MoCase            | E2MoCase_noEvents     | E2MoCase_full        |
+|----------------------|---------------------|-----------------------|----------------------|
+| **# paragraphs**     |    50,975             |    46,276                | 97,251               |
+| **avg # tokens**     | 275.106 ± 245.303  | 139.402 ± 220.950     | 210.532 ± 243.647    |
+| **avg # emotions**   | 1.164 ± 0.757      | 1.634 ± 0.680         | 1.678 ± 0.657        |
+| **avg # morals**     | 3.517 ± 3.870      | 1.773 ± 1.644         | 2.795 ± 2.424        |
+| **avg # events**     | 3.597 ± 2.940      | 0.0 ± 0.0             | 1.885 ± 2.785        |
+
+E2MoCase_noEvents, is the dataset obtained by removing paragraphs that do not contain events, while
+E2MoCase_full, is the version that also includes paragraphs that do not contain events.
+
 
 
 The dataset contains the following columns:
