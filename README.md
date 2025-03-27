@@ -28,7 +28,7 @@ The dataset contains the following columns:
 - `care`, `harm`, `fairness`, `cheating`, `loyalty`, `betrayal`, `authority`, `subversion`, `purity`, `degradation`: Real-valued scores (within 0 and 1) associated with moral values  
 - `anticipation`, `trust`, `disgust`, `joy`, `optimism`, `surprise`, `love`, `anger`, `sadness`, `pessimism`, `fear`: Real-valued scores (within 0 and 1) associated with emotion values
 
-After obtaining a valid SwissDox API key and running the instructions described in the [reconstruct.ipynb](reconstruct.ipynb) notebook (see the **Usage** section below), you will also obtain the **text** column containing the original textual content retrieved from SwissDox.
+After obtaining a valid SwissDox API key and running the instructions described in the [reconstruct_data.ipynb](reconstruct_data.ipynb) notebook (see the **Usage** section below), you will also obtain the **text** column containing the original textual content retrieved from SwissDox.
 
 Below, is an example of a single row of the dataset:
 
@@ -65,7 +65,7 @@ For this work, we used media data made available via Swissdox@LiRI by the Lingui
 
 The raw news paragraphs required to reproduce the dataset cannot be openly shared [due to commercial restrictions](https://www.liri.uzh.ch/en/services/swissdox.html).  However, the original query (in YAML format) used for retrieving data from [Swissdox@LiRI](https://www.liri.uzh.ch/en/services/swissdox.html) can be found in the folder [**Queries**](./Queries/). Additionally, derived data (i.e., labels for emotions, morality, and events) for each news item are available in the [**e2mocase.csv**](./e2mocase.csv) file. 
 
-Provided that the user holds a valid license for Swissdox@LiRI, in the notebook [reconstruct.ipynb](./reconstruct.ipynb) we describe how to retrieve the original text from which the labels for emotions, morality, and events were derived. 
+Provided that the user holds a valid license for Swissdox@LiRI, in the notebook [reconstruct_data.ipynb](./reconstruct_data.ipynb) we describe how to retrieve the original text from which the labels for emotions, morality, and events were derived. 
 
 
 # References
