@@ -4,7 +4,8 @@
 In this work we introduce E2MoCase, a novel dataset designed to facilitate the integrated analysis of emotions, moral values, and events within legal narratives and media coverage.  By leveraging advanced models for emotion detection, moral value identification, and event extraction, E2MoCase offers a multi-dimensional perspective on how legal cases are portrayed in news articles.
 
 
-In this repository, we provide the [E2MoCase dataset](https://arxiv.org/abs/2409.09001) and we describe the process to obtain the raw data from the [SwissDox](https://www.liri.uzh.ch/en/services/swissdox.html) platform. The paper is available [here](https://arxiv.org/abs/2409.09001).
+In this repository, we provide the [E2MoCase dataset](https://arxiv.org/abs/2409.09001) and we describe the process to obtain the raw data from the [SwissDox](https://www.liri.uzh.ch/en/services/swissdox.html) platform. 
+A preprint paper is available [here](https://arxiv.org/abs/2409.09001).
 
 **We are continuously refining and expanding the E2moCase dataset. Stay tuned for upcoming updates!**
 
