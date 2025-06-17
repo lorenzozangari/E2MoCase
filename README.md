@@ -108,6 +108,8 @@ The prompt descriptions for event extraction are available in the [prompts](./pr
 All experiments fine-tuning PLMs were run for five epochs with a batch size of 8, using the Adam optimizer and a learning rate of 5e-5. The MLP with a TF-IDF configuration was run for 50 epochs, using a single hidden layer with 100 units and, where possible, the same hyper-parameters as the experiments with PLMs.
 
 # References
+This work results from a collaboration between the University of Calabria (UNICAL) and the University of Lausanne (UNIL).
+
 
 Please cite the following preprint — referring to its most recent update — in any research product that relies on the data contained in this repository:
 
