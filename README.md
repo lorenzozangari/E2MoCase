@@ -109,10 +109,21 @@ All experiments fine-tuning PLMs were run for five epochs with a batch size of 8
 
 # References
 This work results from a collaboration between the University of Calabria (UNICAL) and the University of Lausanne (UNIL).
+*The resource paper describing the dataset is currently under review at CIKM 2025.*
 
+If you use this resource, please cite:
 
-Please cite the following preprint — referring to its most recent update — in any research product that relies on the data contained in this repository:
-
+```
+@misc{greco_emocase,
+	author       = {Greco, Candida M and Zangari, Lorenzo and Picca, Davide and Tagarelli, Andrea},
+	title        = {E2MoCase},
+	year         = 2025,
+	url          = { https://huggingface.co/datasets/lorenzozan/E2MoCase},
+	doi          = { 10.57967/hf/5800 },
+	publisher    = { Hugging Face }
+}
+```
+You can also refer to the following preprint (dated 2024):
 ```
 @article{greco2024e2mocase,
   title={E2MoCase: A Dataset for Emotional, Event and Moral Observations in News Articles on High-impact Legal Cases},
@@ -123,7 +134,7 @@ Please cite the following preprint — referring to its most recent update — i
 ```
 
 
-Also refer to the following paper on the topic:
+Also you might refer to the following paper on the topic:
 
 ```
 @inproceedings{zangari2025me2,
@@ -134,5 +145,3 @@ Also refer to the following paper on the topic:
   year={2025}
 }
 ```
-
-
