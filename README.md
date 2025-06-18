@@ -114,12 +114,12 @@ This work results from a collaboration between the University of Calabria (UNICA
 If you use this resource, please cite:
 
 ```
-@misc{greco_emocase,
-	author       = {Greco, Candida M and Zangari, Lorenzo and Picca, Davide and Tagarelli, Andrea},
-	title        = {E2MoCase},
+@misc{candida_maria_greco_2025,
+	author       = { Candida Maria Greco and Lorenzo Zangari and Davide Picca and Andrea Tagarelli },
+	title        = { E2MoCase (Revision 745e678) },
 	year         = 2025,
-	url          = { https://huggingface.co/datasets/lorenzozan/E2MoCase},
-	doi          = { 10.57967/hf/5800 },
+	url          = { https://huggingface.co/datasets/lorenzozan/E2MoCase },
+	doi          = { 10.57967/hf/5819 },
 	publisher    = { Hugging Face }
 }
 ```
